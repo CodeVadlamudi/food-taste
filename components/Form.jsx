@@ -2,7 +2,7 @@ import React from "react";
 
 function Form() {
   return (
-    <form className="px-5 sm:px-10 py-24">
+    <form className="px-5 sm:px-10 py-24 bg-zinc-100">
       <div className="max-w-screen-md mx-auto bg-white p-10 rounded-lg drop-shadow-lg">
         <div className="flex flex-col md:flex-row w-full gap-5">
           <div className="flex flex-col flex-1 space-y-1">

@@ -9,15 +9,7 @@ function BookPage() {
     <div>
       <Header />
       <BookHero />
-      <div
-        style={{
-          backgroundImage: "./images/map.png",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-        className="h-full w-full">
-        <Form />
-      </div>
+      <Form />
       <Footer />
     </div>
   );
