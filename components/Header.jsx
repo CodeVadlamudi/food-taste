@@ -59,7 +59,7 @@ function Header() {
           </NavLink>
 
           <nav
-            className={`absolute top-[118px] p-8 flex flex-col bg-white left-0 w-full space-y-4 duration-300 md:relative md:top-0 md:p-0 md:flex-row md:w-auto md:space-y-0 md:space-x-6 z-10 border-t md:border-t-0 md:items-end ${
+            className={`absolute top-[118px] p-8 flex flex-col bg-white left-0 w-full space-y-4 duration-300 md:relative md:top-0 md:p-0 md:flex-row md:w-auto md:space-y-0 md:space-x-6 z-10 border-t md:border-t-0 md:items-center ${
               toggle ? "left-0" : "left-[-100%] md:left-0"
             }`}>
             {headerLinks.map((link) => (
@@ -77,7 +77,7 @@ function Header() {
 
             <NavLink
               to="/book"
-              className="border border-zinc-900 rounded-full w-36 h-12 hover:bg-zinc-800 hover:text-white duration-300 items-center justify-center flex md:hidden">
+              className="border border-zinc-900 rounded-full w-36 h-12 hover:bg-zinc-800 hover:text-white duration-300 items-center justify-center flex lg:hidden">
               Book a Table
             </NavLink>
           </nav>

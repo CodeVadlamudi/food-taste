@@ -3,7 +3,7 @@ import { testimonialCard } from "../data/TestimonialData";
 
 function Testimonial() {
   return (
-    <section className="my-10 sm:my-14 md:my-16 lg:my-24 px-10">
+    <section className="my-10 sm:my-14 md:my-16 lg:my-24 px-5 md:px-10">
       <div className="max-w-screen-xl mx-auto space-y-5">
         <h2 className="font-medium text-3xl md:text-4xl lg:text-5xl text-center font-playFont">
           What Our Customers Say

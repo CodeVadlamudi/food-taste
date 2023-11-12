@@ -9,7 +9,7 @@ function Hero() {
         backgroundRepeat: "no-repeat",
       }}
       className="h-[80vh] bg-cover w-full flex items-center justify-center px-5">
-      <div className="text-center space-y-4 bg-white/60 p-20 rounded">
+      <div className="text-center space-y-4 bg-white/70 p-20 rounded">
         <h1 className="text-4xl md:text-5xl font-medium font-playFont">
           Best food for your taste
         </h1>

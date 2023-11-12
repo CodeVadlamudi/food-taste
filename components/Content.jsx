@@ -12,7 +12,7 @@ function Content() {
     { id: 3, cIcon: <ShoppingCartIcon />, cText: "Online Services Available" },
   ];
   return (
-    <section className="py-10 sm:py-14 md:py-16 lg:py-24 px-10 bg-zinc-100">
+    <section className="py-10 sm:py-14 md:py-16 lg:py-24 px-5 md:px-10 bg-zinc-100">
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:w-10/12 lg:w-full md:mx-auto lg:grid-cols-2 gap-10 lg:gap-14 items-center">
           <div className="grid grid-cols-2 grid-rows-2 gap-2 h-[600px]">

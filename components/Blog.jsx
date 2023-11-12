@@ -3,7 +3,7 @@ import { blogCard } from "../data/BlogData";
 
 function Blog() {
   return (
-    <section className="py-10 sm:py-14 md:py-16 lg:py-24 px-10 bg-zinc-100">
+    <section className="py-10 sm:py-14 md:py-16 lg:py-24 px-5 md:px-10 bg-zinc-100">
       <div className="max-w-screen-xl mx-auto space-y-10">
         <div className="flex items-center flex-col space-y-4 md:flex-row md:space-y-0 justify-between">
           <h2 className="font-medium text-3xl md:text-4xl lg:text-5xl font-playFont">
