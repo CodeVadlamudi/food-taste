@@ -2,7 +2,13 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="bg-[url('./images/hero.png')] bg-center h-[80vh] bg-no-repeat bg-cover w-full flex items-center justify-center px-5">
+    <section
+      style={{
+        backgroundImage: "url('./images/hero.png')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+      className="h-[80vh] bg-cover w-full flex items-center justify-center px-5">
       <div className="text-center space-y-4 bg-white/60 p-20 rounded">
         <h1 className="text-4xl md:text-5xl font-medium font-playFont">
           Best food for your taste
