@@ -44,7 +44,7 @@ function Footer() {
               <a href="/about" className="hover:text-red-500 text-base sm:text-lg">
                 About
               </a>
-              <a href="/" className="hover:text-red-500 text-base sm:text-lg">
+              <a href="/about" className="hover:text-red-500 text-base sm:text-lg">
                 Menu
               </a>
               <a href="/" className="hover:text-red-500 text-base sm:text-lg">
@@ -53,7 +53,7 @@ function Footer() {
               <a href="/" className="hover:text-red-500 text-base sm:text-lg">
                 Blog
               </a>
-              <a href="/" className="hover:text-red-500 text-base sm:text-lg">
+              <a href="/contact" className="hover:text-red-500 text-base sm:text-lg">
                 Contact
               </a>
               <a href="/" className="hover:text-red-500 text-base sm:text-lg">
