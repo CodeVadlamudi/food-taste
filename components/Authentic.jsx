@@ -3,7 +3,13 @@ import React from "react";
 
 function Authentic() {
   return (
-    <section className="bg-[url('./images/bg.png')] h-[690px] bg-no-repeat bg-cover relative w-full">
+    <section
+      style={{
+        backgroundImage: "url('./images/bg.png')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+      className="h-[690px] bg-no-repeat relative w-full">
       <div className="bg-gradient-to-r from-[#2C2F24]/80 to-[#2C2F24]/80 h-full w-full" />
       <div className="flex items-center flex-col justify-center absolute top-0 bottom-0 right-0 left-0 space-y-10">
         <div className="h-24 w-24 bg-white rounded-full flex items-center justify-center cursor-pointer relative">
