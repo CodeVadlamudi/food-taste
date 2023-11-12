@@ -10,8 +10,12 @@ function BookPage() {
       <Header />
       <BookHero />
       <div
-        style={{ backgroundImage: "./images/map.png", backgroundSize: "cover" }}
-        className="bg-center">
+        style={{
+          backgroundImage: "./images/map.png",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="h-full w-full">
         <Form />
       </div>
       <Footer />
