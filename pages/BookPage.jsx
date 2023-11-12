@@ -9,7 +9,9 @@ function BookPage() {
     <div>
       <Header />
       <BookHero />
-      <div className="bg-[url('./images/map.png')] bg-cover bg-center">
+      <div
+        style={{ backgroundImage: "./images/map.png", backgroundSize: "cover" }}
+        className="bg-center">
         <Form />
       </div>
       <Footer />
